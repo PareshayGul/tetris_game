@@ -1,0 +1,6 @@
+{
+  "code-runner.executorMap": {
+    "cpp": "\"${workspaceFolder}\\.vscode\\run-tetris.bat\""
+  },
+  "code-runner.runInTerminal": true
+}

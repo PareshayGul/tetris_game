@@ -1,0 +1,30 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    
+    {
+      "name": "Debug tetris_game",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}\\tetris_game.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "console": "integratedTerminal",
+      "preLaunchTask": "build tetris v4"
+    },
+    {
+      "name": "C++: cl.exe build and debug active file",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}\\tetris_game.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "console": "integratedTerminal",
+      "preLaunchTask": "build tetris v4"
+    }
+  ]
+}
